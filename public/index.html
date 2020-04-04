@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Doudizhu</title>
+</head>
+<body>
+Test Page
+</body>
+<script>
+    fetch("/login", {method: "post"}).then((response) => {
+       response.json().then(res => {
+           console.log("User login result: ", res);
+       })
+    });
+</script>
+</html>

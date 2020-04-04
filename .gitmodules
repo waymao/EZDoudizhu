@@ -1,0 +1,3 @@
+[submodule "ws_test"]
+	path = ws_test
+	url = https://github.com/hakobera/Simple-WebSocket-Client
