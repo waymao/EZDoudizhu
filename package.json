@@ -15,7 +15,7 @@
   "author": "waymao",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "express-session": "^1.17.0",
     "node": "^12.13.0",
     "ws": "^7.2.3",
